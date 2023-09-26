@@ -1,0 +1,56 @@
+tranding_mas=[
+    {
+        "color":"color1",
+        "img":"trending_bottom1.jpg",
+        "color_text":"Lifestyple"
+    },
+    {
+        "color":"color2",
+        "img":"trending_bottom2.jpg",
+        "color_text":"Sports"
+    },
+    {
+        "color":"color3",
+        "img":"trending_bottom3.jpg",
+        "color_text":"Travels"
+    }
+]
+
+riht_content=[
+    {
+        "img":"right1.jpg",
+        "color":"color1"
+    },
+    {
+        "img":"right2.jpg",
+        "color":"color3"
+    },
+    {
+        "img":"right3.jpg",
+        "color":"color2"
+    },
+    {
+        "img":"right4.jpg",
+        "color":"color4"
+    },
+    {
+        "img":"right5.jpg",
+        "color":"color1"
+    }
+
+]
+
+weak_mas=[
+    {
+        "img":"weeklyNews2.jpg"
+    },
+    {
+        "img":"weeklyNews1.jpg"
+    },
+    {
+        "img":"weeklyNews3.jpg"
+    },
+    {
+        "img":"weeklyNews1.jpg"
+    }
+]
