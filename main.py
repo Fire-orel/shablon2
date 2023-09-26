@@ -1,6 +1,6 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler,SimpleHTTPRequestHandler
 from jinja2 import Environment,PackageLoader,select_autoescape
-from mas import tranding_mas,riht_content,weak_mas,nav_button,nav_card
+from mas import tranding_mas,riht_content,weak_mas,nav_button,nav_card,flow_social
 
 class CustomHandler(SimpleHTTPRequestHandler):
     env=Environment(
@@ -33,14 +33,14 @@ class CustomHandler(SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-type",'text/html')
         self.end_headers()
-        body=self.env.get_template("index.html").render(tranding_mas=tranding_mas,riht_content=riht_content,weak_mas=weak_mas,nav_button=nav_button,nav_card=nav_card)
+        body=self.env.get_template("index.html").render(tranding_mas=tranding_mas,riht_content=riht_content,weak_mas=weak_mas,nav_button=nav_button,nav_card=nav_card,flow_social=flow_social)
         self.wfile.write(body.encode('utf-8'))
 
     def render_categori(self):
         self.send_response(200)
         self.send_header("Content-type",'text/html')
         self.end_headers()
-        body=self.env.get_template("categori.html").render(nav_button=nav_button,nav_card=nav_card)
+        body=self.env.get_template("categori.html").render(nav_button=nav_button,nav_card=nav_card,flow_social=flow_social)
         self.wfile.write(body.encode('utf-8'))
     
     def render_about(self):

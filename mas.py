@@ -97,6 +97,7 @@ nav_button=[
 nav_card=[
     {
        "id":"nav-home",
+       "aria":"nav-home-tab",
         "mas":["whatNews3.jpg",
             
                 "whatNews1.jpg"
@@ -107,5 +108,90 @@ nav_card=[
                 "whatNews3.jpg"
             
         ]
+    },
+    {
+       "id":"nav-profile",
+       "aria":"nav-profile-tab",
+        "mas":["whatNews1.jpg",
+            
+                "whatNews3.jpg"
+            ,
+            
+                "whatNews2.jpg"
+            ,
+                "whatNews4.jpg"
+            
+        ]
+    },
+    {
+       "id":"nav-contact",
+       "aria":"nav-contact-tab",
+        "mas":["whatNews1.jpg",
+            
+                "whatNews1.jpg"
+            ,
+            
+                "whatNews1.jpg"
+            ,
+                "whatNews2.jpg"
+            
+        ]
+    },
+    {
+       "id":"nav-last",
+       "aria":"nav-last-tab",
+        "mas":["whatNews3.jpg",
+            
+                "whatNews1.jpg"
+            ,
+            
+                "whatNews3.jpg"
+            ,
+                "whatNews2.jpg"
+            
+        ]
+    },
+    {
+       "id":"nav-nav-Sport",
+       "aria":"nav-Sports",
+        "mas":["whatNews2.jpg",
+            
+                "whatNews1.jpg"
+            ,
+            
+                "whatNews4.jpg"
+            ,
+                "whatNews2.jpg"
+            
+        ]
+    },
+    {
+       "id":"nav-techno",
+       "aria":"nav-technology",
+        "mas":["whatNews4.jpg",
+            
+                "whatNews1.jpg"
+            ,
+            
+                "whatNews3.jpg"
+            ,
+                "whatNews2.jpg"
+            
+        ]
+    }
+]
+
+flow_social=[
+    {
+        "img":"icon-fb.png"
+    },
+     {
+        "img":"icon-tw.png"
+    },
+     {
+        "img":"icon-ins.png"
+    },
+     {
+        "img":"icon-yo.png"
     }
 ]
