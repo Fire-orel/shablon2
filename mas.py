@@ -54,3 +54,58 @@ weak_mas=[
         "img":"weeklyNews1.jpg"
     }
 ]
+
+nav_button=[
+    {
+        "id":"nav-home-tab",
+        "href":"#nav-home",
+        "controls":"nav-home",
+        "text":"All"
+    },
+    {
+        "id":"nav-profile-tab",
+        "href":"#nav-profile",
+        "controls":"nav-profile",
+        "text":"Lifestyle"
+    },
+    {
+        "id":"nav-contact-tab",
+        "href":"#nav-contact",
+        "controls":"nav-contact",
+        "text":"Travel"
+    },
+    {
+        "id":"nav-last-tab",
+        "href":"#nav-last",
+        "controls":"nav-contact",
+        "text":"Fashion"
+    },
+    {
+        "id":"nav-Sports",
+        "href":"#nav-nav-Sport",
+        "controls":"nav-contact",
+        "text":"Sports"
+    },
+    {
+        "id":"nav-technology",
+        "href":"#nav-techno",
+        "controls":"nav-contact",
+        "text":"Technology"
+    }
+]
+
+nav_card=[
+    {
+       "id":"nav-home",
+        "mas":["whatNews3.jpg",
+            
+                "whatNews1.jpg"
+            ,
+            
+                "whatNews2.jpg"
+            ,
+                "whatNews3.jpg"
+            
+        ]
+    }
+]
